@@ -5,17 +5,19 @@
   
 
   
-  <title>归档: 2020/6 | 何震宇的小站</title>
+  <title>Python学习第四天 | 何震宇的小站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="电子科技大学 | 软件工程 |">
-<meta property="og:type" content="website">
-<meta property="og:title" content="何震宇的小站">
-<meta property="og:url" content="https://hzy-hh.github.io/archives/2020/06/index.html">
+  <meta name="description" content="学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！顺便记录一下一个易错点，修改整个列表的元素：(下面代码出自https:&#x2F;&#x2F;blog.csdn.net&#x2F;Test_peng&#x2F;article&#x2F;details&#x2F;100104450)#此代码只修改了列表元素的副本：  def make_great(magicians):  for magician in magicians: #每次循环拿到列表">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Python学习第四天">
+<meta property="og:url" content="https://hzy-hh.github.io/2020/01/30/Python%E5%AD%A6%E4%B9%A0%E7%AC%AC%E5%9B%9B%E5%A4%A9/index.html">
 <meta property="og:site_name" content="何震宇的小站">
-<meta property="og:description" content="电子科技大学 | 软件工程 |">
+<meta property="og:description" content="学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！顺便记录一下一个易错点，修改整个列表的元素：(下面代码出自https:&#x2F;&#x2F;blog.csdn.net&#x2F;Test_peng&#x2F;article&#x2F;details&#x2F;100104450)#此代码只修改了列表元素的副本：  def make_great(magicians):  for magician in magicians: #每次循环拿到列表">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-01-30T06:48:58.000Z">
+<meta property="article:modified_time" content="2020-02-08T13:56:02.000Z">
 <meta property="article:author" content="何震宇">
-<meta property="article:tag" content="正在开发自己的领域">
+<meta property="article:tag" content="Python学习">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="何震宇的小站" type="application/atom+xml">
@@ -77,40 +79,95 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/06/17/%E2%80%9C%E6%B5%8B%E8%AF%95%E2%80%9D/" class="archive-article-date">
-  <time datetime="2020-06-17T14:21:39.000Z" itemprop="datePublished">6月 17</time>
+        <section id="main"><article id="post-Python学习第四天" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/01/30/Python%E5%AD%A6%E4%B9%A0%E7%AC%AC%E5%9B%9B%E5%A4%A9/" class="article-date">
+  <time datetime="2020-01-30T06:48:58.000Z" itemprop="datePublished">2020-01-30</time>
 </a>
-      
+    
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/06/17/%E2%80%9C%E6%B5%8B%E8%AF%95%E2%80%9D/">“测试”</a>
+    <h1 class="article-title" itemprop="name">
+      Python学习第四天
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h3 id="学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！"><a href="#学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！" class="headerlink" title="学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！"></a>学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！</h3><h3 id="顺便记录一下一个易错点，修改整个列表的元素：-下面代码出自https-blog-csdn-net-Test-peng-article-details-100104450"><a href="#顺便记录一下一个易错点，修改整个列表的元素：-下面代码出自https-blog-csdn-net-Test-peng-article-details-100104450" class="headerlink" title="顺便记录一下一个易错点，修改整个列表的元素：(下面代码出自https://blog.csdn.net/Test_peng/article/details/100104450)"></a>顺便记录一下一个易错点，修改整个列表的元素：(下面代码出自<a href="https://blog.csdn.net/Test_peng/article/details/100104450" target="_blank" rel="noopener">https://blog.csdn.net/Test_peng/article/details/100104450</a>)</h3><pre><code>#此代码只修改了列表元素的副本：
 
+def make_great(magicians):
+ for magician in magicians:
+#每次循环拿到列表的的值进行赋值给magician
+    magician = &quot;the Great &quot; + magician
+    #打印出magician的的值，应为 &quot;the Great &quot; + magician
+    print(magician)
+    #因为magician他只是变量，每次循环也只是修改的是变量中的值而不是列表
+return(magician)
+magicians=[&apos;dante&apos;,&apos;vergil&apos;,&apos;leo&apos;]
+print(make_great(magicians)) #此时的打印结果是方法return返回的值，并不是列表的
+print(magicians)
+》》》
+the Great dante #第一次循环时magician的值为&quot;the Great &quot; +magician
+the Great vergil#第二次
+the Great leo #第三次
+[&apos;dante&apos;, &apos;vergil&apos;, &apos;leo&apos;] #原始列表中的值未被改变
+
+
+def make_great(magicians):
+n=len(magicians) #拿到列表的长度进行循环
+for i in range(0,n):
+#下面这行代码才是真正意义上的修改列表
+    magicians[i]=&quot;The Great &quot;+magicians[i]
+    #i列表的为下标，列表中为i下标的元素被修改
+    print(magicians[i])
+return magicians
+》》》》》》》》》》》》
+结果如下
+the Great dante
+the Great vergil
+the Great leo
+[&apos;the Great dante&apos;, &apos;the Great vergil&apos;, &apos;the Great leo&apos;]</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hzy-hh.github.io/2020/01/30/Python%E5%AD%A6%E4%B9%A0%E7%AC%AC%E5%9B%9B%E5%A4%A9/" data-id="ckbk6wl0q0006y8clg4oa09vb" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python%E5%AD%A6%E4%B9%A0/" rel="tag">Python学习</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/02/04/Python%E5%AD%A6%E4%B9%A0%E7%AC%AC%E4%B9%9D%E5%A4%A9/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          Python学习第九天
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/01/27/R-I-P/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">R.I.P.</div>
+    </a>
+  
+</nav>
+
+  
+</article>
 
 </section>
         

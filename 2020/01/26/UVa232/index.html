@@ -5,17 +5,19 @@
   
 
   
-  <title>归档: 2020/6 | 何震宇的小站</title>
+  <title>UVa232 | 何震宇的小站</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="电子科技大学 | 软件工程 |">
-<meta property="og:type" content="website">
-<meta property="og:title" content="何震宇的小站">
-<meta property="og:url" content="https://hzy-hh.github.io/archives/2020/06/index.html">
+  <meta name="description" content="\#include &lt;stdio.h&gt; \#include &lt;string.h&gt; \#include &lt;stdbool.h&gt;  \#define maxr 12 \#define maxc 12  int main() { char map[maxr][maxc]; int r, c; for (r &#x3D; 0; r &lt; 10; r++) {     gets">
+<meta property="og:type" content="article">
+<meta property="og:title" content="UVa232">
+<meta property="og:url" content="https://hzy-hh.github.io/2020/01/26/UVa232/index.html">
 <meta property="og:site_name" content="何震宇的小站">
-<meta property="og:description" content="电子科技大学 | 软件工程 |">
+<meta property="og:description" content="\#include &lt;stdio.h&gt; \#include &lt;string.h&gt; \#include &lt;stdbool.h&gt;  \#define maxr 12 \#define maxc 12  int main() { char map[maxr][maxc]; int r, c; for (r &#x3D; 0; r &lt; 10; r++) {     gets">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2020-01-26T13:36:53.000Z">
+<meta property="article:modified_time" content="2020-04-09T03:33:45.000Z">
 <meta property="article:author" content="何震宇">
-<meta property="article:tag" content="正在开发自己的领域">
+<meta property="article:tag" content="数据结构与算法">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternate" href="/atom.xml" title="何震宇的小站" type="application/atom+xml">
@@ -77,40 +79,154 @@
   </div>
 </header>
       <div class="outer">
-        <section id="main">
-  
-  
-    
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2020" class="archive-year">2020</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      <a href="/2020/06/17/%E2%80%9C%E6%B5%8B%E8%AF%95%E2%80%9D/" class="archive-article-date">
-  <time datetime="2020-06-17T14:21:39.000Z" itemprop="datePublished">6月 17</time>
+        <section id="main"><article id="post-UVa232" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-meta">
+    <a href="/2020/01/26/UVa232/" class="article-date">
+  <time datetime="2020-01-26T13:36:53.000Z" itemprop="datePublished">2020-01-26</time>
 </a>
-      
+    
+  <div class="article-category">
+    <a class="article-category-link" href="/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/">数据结构与算法</a>
+  </div>
+
+  </div>
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2020/06/17/%E2%80%9C%E6%B5%8B%E8%AF%95%E2%80%9D/">“测试”</a>
+    <h1 class="article-title" itemprop="name">
+      UVa232
     </h1>
   
 
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
-  
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <pre><code>\#include &lt;stdio.h&gt;
+\#include &lt;string.h&gt;
+\#include &lt;stdbool.h&gt;
 
+\#define maxr 12
+\#define maxc 12
+
+int main()
+{
+char map[maxr][maxc];
+int r, c;
+for (r = 0; r &lt; 10; r++)
+{
+    gets(map[r]);
+    if (map[r][0] == &apos;0&apos;)
+        break;
+}
+c = strlen(map[0]);
+int number[r][c];
+memset(number, 0, r * c);
+int num = 1;
+for (int i = 0; i &lt; r; i++)
+{
+    for (int j = 0; j &lt; c; j++)
+    {
+        if (map[i][j] == &apos;*&apos;)
+            continue;
+        if (i == 0 || map[i - 1][j] == &apos;*&apos; || (j &gt; 0 &amp;&amp; map[i][j - 1] == &apos;*&apos;))
+            number[i][j] = num++;
+    }
+}
+int space = 0;
+for (int i = 0; i &lt; r; i++)
+{
+
+    int j;
+    for (j = 0; j &lt; c; j++)
+    {
+        if (map[i][j] != &apos;*&apos;)
+            break;
+    }
+    for (; j &lt; c; j++)
+    {
+        if (map[i][j] == &apos;*&apos;)
+        {
+            if (space == 0)
+            {
+                printf(&quot;\n&quot;);
+                space++;
+            }
+            continue;
+        }
+        printf(&quot;%c&quot;, map[i][j]);
+    }
+    printf(&quot;\n&quot;);
+}
+if (space == 0)
+    printf(&quot;\n&quot;);
+space = 0;
+for (int i = 0; i &lt; c; i++)
+{
+
+    int j;
+    for (j = 0; j &lt; r; j++)
+    {
+        if (map[j][i] != &apos;*&apos;)
+            break;
+    }
+    for (; j &lt; r; j++)
+    {
+        if (map[j][i] == &apos;*&apos;)
+        {
+            if (space == 0)
+            {
+                printf(&quot;\n&quot;);
+                space++;
+            }
+            continue;
+        }
+        space = 0;
+        printf(&quot;%c&quot;, map[j][i]);
+    }
+    if (space == 0)
+        printf(&quot;\n&quot;);
+}
+
+getchar();
+return 0;
+}</code></pre>
+      
+    </div>
+    <footer class="article-footer">
+      <a data-url="https://hzy-hh.github.io/2020/01/26/UVa232/" data-id="ckbk6wl11000py8cl24591a4h" class="article-share-link">Share</a>
+      
+      
+  <ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/" rel="tag">数据结构与算法</a></li></ul>
+
+    </footer>
+  </div>
+  
+    
+<nav id="article-nav">
+  
+    <a href="/2020/01/26/%E4%BB%8A%E6%97%A5%E4%BB%BD%E5%B0%8F%E7%BB%93/" id="article-nav-newer" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Newer</strong>
+      <div class="article-nav-title">
+        
+          今日份小结
+        
+      </div>
+    </a>
+  
+  
+    <a href="/2020/01/26/Uva202/" id="article-nav-older" class="article-nav-link-wrap">
+      <strong class="article-nav-caption">Older</strong>
+      <div class="article-nav-title">Uva202</div>
+    </a>
+  
+</nav>
+
+  
+</article>
 
 </section>
         
