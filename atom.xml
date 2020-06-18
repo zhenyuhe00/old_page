@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>何震宇的小站</title>
+  
+  <subtitle>欢迎来到我的小站</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://hzy-hh.github.io/"/>
+  <updated>2020-06-17T14:21:39.144Z</updated>
+  <id>https://hzy-hh.github.io/</id>
+  
+  <author>
+    <name>何震宇</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>“测试”</title>
+    <link href="https://hzy-hh.github.io/2020/06/17/ce-shi/"/>
+    <id>https://hzy-hh.github.io/2020/06/17/ce-shi/</id>
+    <published>2020-06-17T14:21:39.000Z</published>
+    <updated>2020-06-17T14:21:39.144Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>ceshi</title>
+    <link href="https://hzy-hh.github.io/2020/05/18/ceshi/"/>
+    <id>https://hzy-hh.github.io/2020/05/18/ceshi/</id>
+    <published>2020-05-18T02:00:47.000Z</published>
+    <updated>2020-05-18T02:00:47.772Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>二叉树序列知二求一</title>
+    <link href="https://hzy-hh.github.io/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/"/>
+    <id>https://hzy-hh.github.io/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/</id>
+    <published>2020-04-09T03:32:37.000Z</published>
+    <updated>2020-04-09T03:39:34.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;决策树看的很烦，于是打算去刷一波二叉树的题。&lt;/p&gt;
+&lt;p&gt;参考自：&lt;a href=&quot;https://blog.csdn.net/qq_44622401/article/details/104064901&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>统计学习方法第二、三、四章小结</title>
+    <link href="https://hzy-hh.github.io/2020/04/04/tong-ji-xue-xi-fang-fa-di-er-san-si-zhang-xiao-jie/"/>
+    <id>https://hzy-hh.github.io/2020/04/04/tong-ji-xue-xi-fang-fa-di-er-san-si-zhang-xiao-jie/</id>
+    <published>2020-04-04T09:44:15.000Z</published>
+    <updated>2020-04-04T09:52:29.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;了解了感知机、k近邻算法、朴素贝叶斯法&lt;/strong&gt;&lt;/p&gt;
+&lt;h4 id=&quot;感知机&quot;&gt;&lt;a href=&quot;#感知机&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="统计学习" scheme="https://hzy-hh.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="统计学习" scheme="https://hzy-hh.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>统计学习方法第一章小结</title>
+    <link href="https://hzy-hh.github.io/2020/03/31/tong-ji-xue-xi-fang-fa-di-yi-zhang-xiao-jie/"/>
+    <id>https://hzy-hh.github.io/2020/03/31/tong-ji-xue-xi-fang-fa-di-yi-zhang-xiao-jie/</id>
+    <published>2020-03-31T02:03:47.000Z</published>
+    <updated>2020-04-04T09:37:08.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;统计学习方法&quot;&gt;&lt;a href=&quot;#统计学习方法&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="统计学习" scheme="https://hzy-hh.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="统计学习" scheme="https://hzy-hh.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《统计学习方法》各章节代码实现与课后习题参考解答</title>
+    <link href="https://hzy-hh.github.io/2020/03/30/tong-ji-xue-xi/"/>
+    <id>https://hzy-hh.github.io/2020/03/30/tong-ji-xue-xi/</id>
+    <published>2020-03-30T11:27:01.000Z</published>
+    <updated>2020-03-31T02:04:17.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/breeze_blows/article/details/85469944&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="统计学习" scheme="https://hzy-hh.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+      <category term="统计学习" scheme="https://hzy-hh.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>PLA算法</title>
+    <link href="https://hzy-hh.github.io/2020/03/17/pla-suan-fa/"/>
+    <id>https://hzy-hh.github.io/2020/03/17/pla-suan-fa/</id>
+    <published>2020-03-17T01:34:08.000Z</published>
+    <updated>2020-03-17T01:56:36.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;视频从基石2-1开始&lt;/p&gt;
+&lt;p&gt;算法原理：&lt;a href=&quot;https://blog.csdn.net/u013455341/article/details/46747343&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="台大机器学习" scheme="https://hzy-hh.github.io/categories/%E5%8F%B0%E5%A4%A7%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>串的模式匹配</title>
+    <link href="https://hzy-hh.github.io/2020/02/18/chuan-de-mo-shi-pi-pei/"/>
+    <id>https://hzy-hh.github.io/2020/02/18/chuan-de-mo-shi-pi-pei/</id>
+    <published>2020-02-18T11:14:28.000Z</published>
+    <updated>2020-03-31T02:27:29.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt; BF算法：&lt;br&gt;&lt;a href=&quot;https://www.csdn.net/gather_2e/MtTacg3sMDk0MC1ibG9n.html&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="串的模式匹配" scheme="https://hzy-hh.github.io/tags/%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日份搞笑</title>
+    <link href="https://hzy-hh.github.io/2020/02/11/jin-ri-fen-gao-xiao/"/>
+    <id>https://hzy-hh.github.io/2020/02/11/jin-ri-fen-gao-xiao/</id>
+    <published>2020-02-11T06:46:47.000Z</published>
+    <updated>2020-02-11T07:02:06.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;strong&gt;也许从这以后，慢慢地你们中的一些人会开始把你们的崇拜对象，从帅哥美女、什么‘哥’什么‘姐’，转移到这些大胡子或者秃顶的老头身上，那我就非常欣慰了 –
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python学习第九天</title>
+    <link href="https://hzy-hh.github.io/2020/02/04/python-xue-xi-di-jiu-tian/"/>
+    <id>https://hzy-hh.github.io/2020/02/04/python-xue-xi-di-jiu-tian/</id>
+    <published>2020-02-04T07:32:18.000Z</published>
+    <updated>2020-02-04T07:35:15.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h4 id=&quot;书上的基础语法似乎大概已经学完啦，开始学书上的项目啦-blabalblabbalabalbababalalaalbalabablablabablabablbalbablaabalablbala&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python学习" scheme="https://hzy-hh.github.io/tags/Python%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Python学习第四天</title>
+    <link href="https://hzy-hh.github.io/2020/01/30/python-xue-xi-di-si-tian/"/>
+    <id>https://hzy-hh.github.io/2020/01/30/python-xue-xi-di-si-tian/</id>
+    <published>2020-01-30T06:48:58.000Z</published>
+    <updated>2020-02-08T13:56:02.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！&quot;&gt;&lt;a href=&quot;#学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python学习" scheme="https://hzy-hh.github.io/tags/Python%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>R.I.P.</title>
+    <link href="https://hzy-hh.github.io/2020/01/27/r-i-p/"/>
+    <id>https://hzy-hh.github.io/2020/01/27/r-i-p/</id>
+    <published>2020-01-27T14:08:51.000Z</published>
+    <updated>2020-01-28T01:11:25.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Python学习第一天</title>
+    <link href="https://hzy-hh.github.io/2020/01/27/python-xue-xi-di-yi-tian/"/>
+    <id>https://hzy-hh.github.io/2020/01/27/python-xue-xi-di-yi-tian/</id>
+    <published>2020-01-27T07:13:25.000Z</published>
+    <updated>2020-02-11T06:53:15.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;ul&gt;
+&lt;li&gt;今天学了一点python，变量不用定义还有点不习惯。字符串拼接直接用+号好爽。处理一个列表有好多函数啊，用起来是挺方便的，但暂时没有发现python的优势，感觉C语言处理数组也可以先把要用的功能写成函数，再直接调用函数，就看起来和python一样了啊。不过，感觉
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Python学习" scheme="https://hzy-hh.github.io/tags/Python%E5%AD%A6%E4%B9%A0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>今日份小结</title>
+    <link href="https://hzy-hh.github.io/2020/01/26/jin-ri-fen-xiao-jie/"/>
+    <id>https://hzy-hh.github.io/2020/01/26/jin-ri-fen-xiao-jie/</id>
+    <published>2020-01-26T13:59:37.000Z</published>
+    <updated>2020-01-27T12:14:59.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;1、纠结于这个寒假干什么，到底是入门ACM然后搞到底，还是永远都不要搞ACM学python&quot;&gt;&lt;a href=&quot;#1、纠结于这个寒假干什么，到底是入门ACM然后搞到底，还是永远都不要搞ACM学python&quot; class=&quot;headerlink&quot;
+        
+      
+    
+    </summary>
+    
+    
+      <category term="小结" scheme="https://hzy-hh.github.io/tags/%E5%B0%8F%E7%BB%93/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UVa232</title>
+    <link href="https://hzy-hh.github.io/2020/01/26/uva232/"/>
+    <id>https://hzy-hh.github.io/2020/01/26/uva232/</id>
+    <published>2020-01-26T13:36:53.000Z</published>
+    <updated>2020-04-09T03:33:45.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;\#include &amp;lt;stdio.h&amp;gt;
+\#include &amp;lt;string.h&amp;gt;
+\#include &amp;lt;stdbool.h&amp;gt;
+
+\#define maxr 12
+\#define maxc 12
+
+int
+        
+      
+    
+    </summary>
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Uva202</title>
+    <link href="https://hzy-hh.github.io/2020/01/26/uva202/"/>
+    <id>https://hzy-hh.github.io/2020/01/26/uva202/</id>
+    <published>2020-01-26T12:32:11.000Z</published>
+    <updated>2020-04-09T03:34:07.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;还有BUG，无法正确显示除得尽的小数和单个数字为循环节的小数&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#include&amp;lt;stdio.h&amp;gt;
+#include&amp;lt;string.h&amp;gt;
+
+int main()
+{
+int
+        
+      
+    
+    </summary>
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UVa1368</title>
+    <link href="https://hzy-hh.github.io/2020/01/26/uva1368/"/>
+    <id>https://hzy-hh.github.io/2020/01/26/uva1368/</id>
+    <published>2020-01-26T12:30:22.000Z</published>
+    <updated>2020-04-09T03:33:19.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;\#include &amp;lt;stdio.h&amp;gt;
+\#include &amp;lt;string.h&amp;gt;
+\#include &amp;lt;stdbool.h&amp;gt;
+
+\#define maxm 55
+\#define maxn 1005
+
+int
+        
+      
+    
+    </summary>
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UVa455</title>
+    <link href="https://hzy-hh.github.io/2020/01/26/uva455/"/>
+    <id>https://hzy-hh.github.io/2020/01/26/uva455/</id>
+    <published>2020-01-26T12:22:50.000Z</published>
+    <updated>2020-04-09T03:33:30.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;\#include &amp;lt;stdio.h&amp;gt;
+\#include &amp;lt;string.h&amp;gt;
+
+\#define maxn 85
+
+int main() //my answer
+{
+char
+        
+      
+    
+    </summary>
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>UVa227</title>
+    <link href="https://hzy-hh.github.io/2020/01/26/uva227/"/>
+    <id>https://hzy-hh.github.io/2020/01/26/uva227/</id>
+    <published>2020-01-26T12:19:27.000Z</published>
+    <updated>2020-04-09T03:33:54.000Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;pre&gt;&lt;code&gt;#include &amp;lt;stdio.h&amp;gt;
+#include &amp;lt;string.h&amp;gt;
+#include &amp;lt;stdbool.h&amp;gt;
+
+#define maxn 25
+
+int main()
+{
+char
+        
+      
+    
+    </summary>
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+    
+      <category term="数据结构与算法" scheme="https://hzy-hh.github.io/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我的小站建成啦！！！</title>
+    <link href="https://hzy-hh.github.io/2020/01/25/xiao-zhan-jian-cheng/"/>
+    <id>https://hzy-hh.github.io/2020/01/25/xiao-zhan-jian-cheng/</id>
+    <published>2020-01-25T02:26:24.000Z</published>
+    <updated>2020-01-26T08:28:45.000Z</updated>
+    
+    <summary type="html">
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>

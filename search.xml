@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>“测试”</title>
+      <link href="/2020/06/17/ce-shi/"/>
+      <url>/2020/06/17/ce-shi/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>ceshi</title>
+      <link href="/2020/05/18/ceshi/"/>
+      <url>/2020/05/18/ceshi/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>二叉树序列知二求一</title>
+      <link href="/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/"/>
+      <url>/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/</url>
+      
+        <content type="html"><![CDATA[<p>决策树看的很烦，于是打算去刷一波二叉树的题。</p><p>参考自：<a href="https://blog.csdn.net/qq_44622401/article/details/104064901" target="_blank" rel="noopener">https://blog.csdn.net/qq_44622401/article/details/104064901</a></p><pre><code>#include &lt;stdio.h&gt;#include &lt;stdlib.h&gt;#include &lt;ctype.h&gt;#include &lt;stdbool.h&gt;#include &lt;string.h&gt;void print_post(char *pre, char *in, int root, int start, int end);void print_pre(char *post, char *in, int root, int start, int end);int main(){    char *pre = &quot;123456&quot;; // 前序    char *in = &quot;324165&quot;;  // 中序    char *post = &quot;342651&quot;; // 后序    print_post(pre, in, 0, 0, strlen(in) -1 );    printf(&quot;\n&quot;);    print_pre(post, in, strlen(post)-1, 0, strlen(in)-1);    printf(&quot;\n&quot;);    system(&quot;pause&quot;);    return 0;}void print_post( char *pre, char *in, int root, int start, int end){    if( start &gt; end )        return;    int i = start;    while(i&lt;end &amp;&amp; in[i] != pre[root]) // 在中序序列中找到根节点以分割左右子树        i++;    print_post(pre, in, root+1, start, i - 1 ); // 遍历左子树    print_post(pre, in, root+i-start+1, i+1, end); // 遍历右子树    printf(&quot;%c &quot;, pre[root]);    }void print_pre( char *post, char *in, int root, int start, int end){    if( start&gt;end )        return;    int i = start;    while( i&lt;end &amp;&amp; in[i]!=post[root] )        i++;    printf(&quot;%c &quot;, post[root]);    print_pre( post, in, root-end+i-1, start, i-1); // 遍历左子树    print_pre (post, in, root-1, i+1, end);}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>统计学习方法第二、三、四章小结</title>
+      <link href="/2020/04/04/tong-ji-xue-xi-fang-fa-di-er-san-si-zhang-xiao-jie/"/>
+      <url>/2020/04/04/tong-ji-xue-xi-fang-fa-di-er-san-si-zhang-xiao-jie/</url>
+      
+        <content type="html"><![CDATA[<p><strong>了解了感知机、k近邻算法、朴素贝叶斯法</strong></p><h4 id="感知机"><a href="#感知机" class="headerlink" title="感知机"></a>感知机</h4>]]></content>
+      
+      
+      <categories>
+          
+          <category> 统计学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 统计学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>统计学习方法第一章小结</title>
+      <link href="/2020/03/31/tong-ji-xue-xi-fang-fa-di-yi-zhang-xiao-jie/"/>
+      <url>/2020/03/31/tong-ji-xue-xi-fang-fa-di-yi-zhang-xiao-jie/</url>
+      
+        <content type="html"><![CDATA[<h4 id="统计学习方法"><a href="#统计学习方法" class="headerlink" title="统计学习方法"></a>统计学习方法</h4><p><strong>统计学习方法概括</strong>：现在有某个输入输出的对应关系f无法轻易得知，于是给一堆训练数据给机器学习，让机器找到一个最优模型g（最契合f），使得不管是训练数据的输入还是未知数据的输入，通过g得到的输出结果与通过f得到的差别结果最小。</p><h4 id="统计学习分类"><a href="#统计学习分类" class="headerlink" title="统计学习分类"></a>统计学习分类</h4><p>1、 <strong>监督学习</strong>：从标注（如标注某些单词是名词，某些单词是动词）数据中学习预测模型的机器学习问题。  （标注耗费人工，但感觉准确率比无监督学习高？）<br>2、 <strong>无监督学习</strong>：数据没有标注，机器自己找规律。<br>半监督学习（两者间），主动学习（机器自己提问）<br>概率模型、非概率模型（取值0/1）、线性模型、非线性模型、参数化模型、非参数化模型（暂时不理解）<br>贝叶斯学习（后验概率=先验概率 * 调整比例）<br>核方法（将非线性模型的纬度提升使其线性可分，数学原理暂不理解）</p><h4 id="统计学习方法三要素"><a href="#统计学习方法三要素" class="headerlink" title="统计学习方法三要素"></a>统计学习方法三要素</h4><p>1、<strong>模型</strong>：在监督学习中，模型就是要学习的条件概率分布或决策函数，模型的假设空间为可能的条件概率或决策函数的集合。<br>2、<strong>策略</strong>：如何选取最优化的模型？损失函数最小（既预测值与真实值差距最小，可用0-1损失函数、平方损失函数、绝对损失函数、对数损失函数衡量）。学习的目标就是选择期望风险最小的模型（期望风险：每一对输入对应的输出与实际值的差值乘联合分布的积分）。由于期望风险不是上帝视角无法计算，于是只能通过局部推整体，从而出来了经验风险（训练数据集在某选取模型下的平均损失），当经验风险小是我们认为期望风险也应该小。然而，除非训练数据超级大，如果经验风险过小有可能导致过拟合，此时我们在经验风险的表达式后面添加一个正则化项变成结构风险，此时我们认为结构风险越小，期望风险越小。结构风险不同于经验风险，经验风险可以不断地增加选取模型的复杂度以更好地契合训练数据，而结构风险中，当模型的复杂度不断增加是，正则化的值也不断增加。因此，结构风险的意义就是：选取尽可能简单的模型尽可能提高准确率。<br>3、<strong>算法</strong>：算法指学习模型的具体计算方法，一般指求解最优化问题的方法。</p><h4 id="模型评估与模型选择"><a href="#模型评估与模型选择" class="headerlink" title="模型评估与模型选择"></a>模型评估与模型选择</h4><p>1、<strong>泛化能力</strong>：学习方法对未知数据的预测能力。<br>2、<strong>过拟合与模型选择</strong>：…<br>3、<strong>正则化与交叉验证</strong>：正则化…交叉验证：用的最多的是S折交叉验证：把数据分为S个互不相交、大小相同的自己，把S-1个子集的数据作为训练数据，剩下的作为测试数据，重复S次，选取平均误差最小的模型。<br>4、<strong>泛化误差上界</strong>：总的来说，样本容量越多，假设空间越小，泛化误差上界越小。<strong>针对二类泛化误差的数学原理有待理解</strong>。  </p><p>####第一章习题答案<br><a href="https://blog.csdn.net/breeze_blows/article/details/85544308" target="_blank" rel="noopener">https://blog.csdn.net/breeze_blows/article/details/85544308</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 统计学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 统计学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>《统计学习方法》各章节代码实现与课后习题参考解答</title>
+      <link href="/2020/03/30/tong-ji-xue-xi/"/>
+      <url>/2020/03/30/tong-ji-xue-xi/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/breeze_blows/article/details/85469944" target="_blank" rel="noopener">https://blog.csdn.net/breeze_blows/article/details/85469944</a></p><p><a href="https://github.com/WenDesi/lihang_book_algorithm" target="_blank" rel="noopener">https://github.com/WenDesi/lihang_book_algorithm</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 统计学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 统计学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>PLA算法</title>
+      <link href="/2020/03/17/pla-suan-fa/"/>
+      <url>/2020/03/17/pla-suan-fa/</url>
+      
+        <content type="html"><![CDATA[<p>视频从基石2-1开始</p><p>算法原理：<a href="https://blog.csdn.net/u013455341/article/details/46747343" target="_blank" rel="noopener">https://blog.csdn.net/u013455341/article/details/46747343</a></p><p>算法证明：<a href="https://www.cnblogs.com/freebird92/p/6627765.html" target="_blank" rel="noopener">https://www.cnblogs.com/freebird92/p/6627765.html</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 台大机器学习 </category>
+          
+      </categories>
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>串的模式匹配</title>
+      <link href="/2020/02/18/chuan-de-mo-shi-pi-pei/"/>
+      <url>/2020/02/18/chuan-de-mo-shi-pi-pei/</url>
+      
+        <content type="html"><![CDATA[<p> BF算法：<br><a href="https://www.csdn.net/gather_2e/MtTacg3sMDk0MC1ibG9n.html" target="_blank" rel="noopener">https://www.csdn.net/gather_2e/MtTacg3sMDk0MC1ibG9n.html</a></p><p>KMP算法：<a href="https://baike.baidu.com/item/kmp%E7%AE%97%E6%B3%95/10951804?fr=aladdin" target="_blank" rel="noopener">https://baike.baidu.com/item/kmp%E7%AE%97%E6%B3%95/10951804?fr=aladdin</a></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 串的模式匹配 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>今日份搞笑</title>
+      <link href="/2020/02/11/jin-ri-fen-gao-xiao/"/>
+      <url>/2020/02/11/jin-ri-fen-gao-xiao/</url>
+      
+        <content type="html"><![CDATA[<p><strong>也许从这以后，慢慢地你们中的一些人会开始把你们的崇拜对象，从帅哥美女、什么‘哥’什么‘姐’，转移到这些大胡子或者秃顶的老头身上，那我就非常欣慰了 – 《大话数据结构》</strong></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python学习第九天</title>
+      <link href="/2020/02/04/python-xue-xi-di-jiu-tian/"/>
+      <url>/2020/02/04/python-xue-xi-di-jiu-tian/</url>
+      
+        <content type="html"><![CDATA[<h4 id="书上的基础语法似乎大概已经学完啦，开始学书上的项目啦-blabalblabbalabalbababalalaalbalabablablabablabablbalbablaabalablbala"><a href="#书上的基础语法似乎大概已经学完啦，开始学书上的项目啦-blabalblabbalabalbababalalaalbalabablablabablabablbalbablaabalablbala" class="headerlink" title="书上的基础语法似乎大概已经学完啦，开始学书上的项目啦,blabalblabbalabalbababalalaalbalabablablabablabablbalbablaabalablbala"></a>书上的基础语法似乎大概已经学完啦，开始学书上的项目啦,blabalblabbalabalbababalalaalbalabablablabablabablbalbablaabalablbala</h4>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Python学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python学习第四天</title>
+      <link href="/2020/01/30/python-xue-xi-di-si-tian/"/>
+      <url>/2020/01/30/python-xue-xi-di-si-tian/</url>
+      
+        <content type="html"><![CDATA[<h3 id="学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！"><a href="#学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！" class="headerlink" title="学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！"></a>学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！</h3><h3 id="顺便记录一下一个易错点，修改整个列表的元素：-下面代码出自https-blog-csdn-net-Test-peng-article-details-100104450"><a href="#顺便记录一下一个易错点，修改整个列表的元素：-下面代码出自https-blog-csdn-net-Test-peng-article-details-100104450" class="headerlink" title="顺便记录一下一个易错点，修改整个列表的元素：(下面代码出自https://blog.csdn.net/Test_peng/article/details/100104450)"></a>顺便记录一下一个易错点，修改整个列表的元素：(下面代码出自<a href="https://blog.csdn.net/Test_peng/article/details/100104450" target="_blank" rel="noopener">https://blog.csdn.net/Test_peng/article/details/100104450</a>)</h3><pre><code>#此代码只修改了列表元素的副本：def make_great(magicians): for magician in magicians:#每次循环拿到列表的的值进行赋值给magician    magician = &quot;the Great &quot; + magician    #打印出magician的的值，应为 &quot;the Great &quot; + magician    print(magician)    #因为magician他只是变量，每次循环也只是修改的是变量中的值而不是列表return(magician)magicians=[&#39;dante&#39;,&#39;vergil&#39;,&#39;leo&#39;]print(make_great(magicians)) #此时的打印结果是方法return返回的值，并不是列表的print(magicians)》》》the Great dante #第一次循环时magician的值为&quot;the Great &quot; +magicianthe Great vergil#第二次the Great leo #第三次[&#39;dante&#39;, &#39;vergil&#39;, &#39;leo&#39;] #原始列表中的值未被改变def make_great(magicians):n=len(magicians) #拿到列表的长度进行循环for i in range(0,n):#下面这行代码才是真正意义上的修改列表    magicians[i]=&quot;The Great &quot;+magicians[i]    #i列表的为下标，列表中为i下标的元素被修改    print(magicians[i])return magicians》》》》》》》》》》》》结果如下the Great dantethe Great vergilthe Great leo[&#39;the Great dante&#39;, &#39;the Great vergil&#39;, &#39;the Great leo&#39;]</code></pre>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Python学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>R.I.P.</title>
+      <link href="/2020/01/27/r-i-p/"/>
+      <url>/2020/01/27/r-i-p/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Python学习第一天</title>
+      <link href="/2020/01/27/python-xue-xi-di-yi-tian/"/>
+      <url>/2020/01/27/python-xue-xi-di-yi-tian/</url>
+      
+        <content type="html"><![CDATA[<ul><li>今天学了一点python，变量不用定义还有点不习惯。字符串拼接直接用+号好爽。处理一个列表有好多函数啊，用起来是挺方便的，但暂时没有发现python的优势，感觉C语言处理数组也可以先把要用的功能写成函数，再直接调用函数，就看起来和python一样了啊。不过，感觉这本《python编程：从入门到实践》写得真的好，感觉就像有一个老师在我面前教我学习，一直在和我对话。然后看了这本书的目录感到有点兴奋，外星人、武装飞船什么鬼！！！还有数据可视化也挺想快点学到这，感觉学python应该比C语言有趣多了。</li></ul><ul><li>还有感觉这个好有趣<img src="Zen.png" height="30%"></li></ul>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Python学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>今日份小结</title>
+      <link href="/2020/01/26/jin-ri-fen-xiao-jie/"/>
+      <url>/2020/01/26/jin-ri-fen-xiao-jie/</url>
+      
+        <content type="html"><![CDATA[<h3 id="1、纠结于这个寒假干什么，到底是入门ACM然后搞到底，还是永远都不要搞ACM学python"><a href="#1、纠结于这个寒假干什么，到底是入门ACM然后搞到底，还是永远都不要搞ACM学python" class="headerlink" title="1、纠结于这个寒假干什么，到底是入门ACM然后搞到底，还是永远都不要搞ACM学python"></a>1、纠结于这个寒假干什么，到底是入门ACM然后搞到底，还是永远都不要搞ACM学python</h3><h3 id="2、没有成功向百度上传我的网站，百度APP验证非要说我没给权限-○･｀Д´･-○"><a href="#2、没有成功向百度上传我的网站，百度APP验证非要说我没给权限-○･｀Д´･-○" class="headerlink" title="2、没有成功向百度上传我的网站，百度APP验证非要说我没给权限[○･｀Д´･ ○]"></a>2、没有成功向百度上传我的网站，百度APP验证非要说我没给权限[○･｀Д´･ ○]</h3><h3 id="3、为什么上传的有一篇文章显示不出来图片-○･｀Д´･-○-（原来是库里少放了一张图片哈哈哈哈-2020-1-27-20-14）"><a href="#3、为什么上传的有一篇文章显示不出来图片-○･｀Д´･-○-（原来是库里少放了一张图片哈哈哈哈-2020-1-27-20-14）" class="headerlink" title="3、为什么上传的有一篇文章显示不出来图片[○･｀Д´･ ○]（原来是库里少放了一张图片哈哈哈哈 2020-1-27-20:14）"></a>3、为什么上传的有一篇文章显示不出来图片[○･｀Д´･ ○]（原来是库里少放了一张图片哈哈哈哈 2020-1-27-20:14）</h3><h3 id="4、xhswxhna-sad-sad-sad"><a href="#4、xhswxhna-sad-sad-sad" class="headerlink" title="4、xhswxhna[sad][sad][sad]"></a>4、xhswxhna[sad][sad][sad]</h3>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 小结 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UVa232</title>
+      <link href="/2020/01/26/uva232/"/>
+      <url>/2020/01/26/uva232/</url>
+      
+        <content type="html"><![CDATA[<pre><code>\#include &lt;stdio.h&gt;\#include &lt;string.h&gt;\#include &lt;stdbool.h&gt;\#define maxr 12\#define maxc 12int main(){char map[maxr][maxc];int r, c;for (r = 0; r &lt; 10; r++){    gets(map[r]);    if (map[r][0] == &#39;0&#39;)        break;}c = strlen(map[0]);int number[r][c];memset(number, 0, r * c);int num = 1;for (int i = 0; i &lt; r; i++){    for (int j = 0; j &lt; c; j++)    {        if (map[i][j] == &#39;*&#39;)            continue;        if (i == 0 || map[i - 1][j] == &#39;*&#39; || (j &gt; 0 &amp;&amp; map[i][j - 1] == &#39;*&#39;))            number[i][j] = num++;    }}int space = 0;for (int i = 0; i &lt; r; i++){    int j;    for (j = 0; j &lt; c; j++)    {        if (map[i][j] != &#39;*&#39;)            break;    }    for (; j &lt; c; j++)    {        if (map[i][j] == &#39;*&#39;)        {            if (space == 0)            {                printf(&quot;\n&quot;);                space++;            }            continue;        }        printf(&quot;%c&quot;, map[i][j]);    }    printf(&quot;\n&quot;);}if (space == 0)    printf(&quot;\n&quot;);space = 0;for (int i = 0; i &lt; c; i++){    int j;    for (j = 0; j &lt; r; j++)    {        if (map[j][i] != &#39;*&#39;)            break;    }    for (; j &lt; r; j++)    {        if (map[j][i] == &#39;*&#39;)        {            if (space == 0)            {                printf(&quot;\n&quot;);                space++;            }            continue;        }        space = 0;        printf(&quot;%c&quot;, map[j][i]);    }    if (space == 0)        printf(&quot;\n&quot;);}getchar();return 0;}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Uva202</title>
+      <link href="/2020/01/26/uva202/"/>
+      <url>/2020/01/26/uva202/</url>
+      
+        <content type="html"><![CDATA[<p>还有BUG，无法正确显示除得尽的小数和单个数字为循环节的小数</p><pre><code>#include&lt;stdio.h&gt;#include&lt;string.h&gt;int main(){int a,b,digit[55],r[3005];memset(r,0,3005);int t;scanf(&quot;%d&quot;,&amp;t);while(t--){    int count=0;     memset(r,0,3005);    scanf(&quot;%d%d&quot;,&amp;a,&amp;b);    digit[count++]=a/b;    while(!r[a-b*digit[count-1]]){         r[a-b*digit[count-1]]=1;        a=(a-digit[count-1]*b)*10;        digit[count++]=a/b;    }    printf(&quot;%d\n&quot;,count-1);    printf(&quot;%d.(&quot;,digit[0]);    for(int i=1;i&lt;count;i++){        printf(&quot;%d&quot;,digit[i]);    }    printf(&quot;)\n&quot;);}}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UVa1368</title>
+      <link href="/2020/01/26/uva1368/"/>
+      <url>/2020/01/26/uva1368/</url>
+      
+        <content type="html"><![CDATA[<pre><code>\#include &lt;stdio.h&gt;\#include &lt;string.h&gt;\#include &lt;stdbool.h&gt;\#define maxm 55\#define maxn 1005int main(){char arr[maxm][maxn];char best[maxn];int m, n;int min = 0;scanf(&quot;%d%d&quot;, &amp;m, &amp;n);for (int i = 0; i &lt; m; i++){    scanf(&quot;%s&quot;, arr[i]);}strcpy(best, arr[0]);int choose = 0;for (int i = 0; i &lt; m; i++){    for (int j = 0; j &lt; n; j++)    {        if (arr[choose][j] != arr[i][j])            min++;    }}int temp = 1;int distance;while (temp &lt;= m){    distance = 0;    for (int i = 0; i &lt; m; i++)    {        for (int j = 0; j &lt; n; j++)        {            if (arr[temp][j] != arr[i][j])                distance++;        }    }    if (distance == min &amp;&amp; strcmp(arr[temp], arr[choose]) &lt; 0)    {        min = distance;        choose = temp;    }    if (distance &lt; min)    {        min = distance;        choose = temp;    }    temp++;}printf(&quot;\n%d\n%s\n&quot;, min, arr[choose]);getchar();getchar();return 0;}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UVa455</title>
+      <link href="/2020/01/26/uva455/"/>
+      <url>/2020/01/26/uva455/</url>
+      
+        <content type="html"><![CDATA[<pre><code>\#include &lt;stdio.h&gt;\#include &lt;string.h&gt;\#define maxn 85int main() //my answer{char str[maxn];scanf(&quot;%s&quot;,str);int len=strlen(str);for (int i=1;i&lt;=len/2;i++){    char min[i];    int judge=1;    for(int j=0;j&lt;i;j++){        min[j]=str[j];    }    for(int p=0;p&lt;len;p=p+i){        for(int q=0;q&lt;i;q++){            if(min[q]!=str[p+q]){                judge=0;                break;            }            if(judge==0) break;        }    }    if(judge==1){        printf(&quot;%d\n&quot;,i);        break;    }    if(i==len/2) printf(&quot;none\n&quot;);}    getchar();    getchar();    return 0;}/*                         internet\#include&lt;stdio.h&gt;\#include&lt;string.h&gt;\#include&lt;ctype.h&gt;\#define max 100+10char s[max];int main(){int n, len;scanf(&quot;%d&quot;, &amp;n);getchar();while (n--){    getchar();    gets(s);    len = strlen(s);    for (int i = 1; i &lt;= len;i++)    if (len%i == 0)    {        bool ok = true;        for (int j = i; j &lt; len;j++)        if (s[j] != s[j%i])        {            ok = false;            break;        }        if (ok)        {            printf(&quot;%d\n&quot;, i);            if (n)                putchar(&#39;\n&#39;);            break;        }    }}return 0;}    */</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>UVa227</title>
+      <link href="/2020/01/26/uva227/"/>
+      <url>/2020/01/26/uva227/</url>
+      
+        <content type="html"><![CDATA[<pre><code>#include &lt;stdio.h&gt;#include &lt;string.h&gt;#include &lt;stdbool.h&gt;#define maxn 25int main(){char map[5][5]={&#39;T&#39;,&#39;R&#39;,&#39;G&#39;,&#39;S&#39;,&#39;J&#39;,&#39;X&#39;,&#39;D&#39;,&#39;O&#39;,&#39;K&#39;,&#39;I&#39;,&#39;M&#39;,&#39; &#39;,&#39;V&#39;,&#39;L&#39;,&#39;N&#39;,&#39;W&#39;,&#39;P&#39;,&#39;A&#39;,&#39;B&#39;,&#39;E&#39;,&#39;U&#39;,&#39;Q&#39;,&#39;H&#39;,&#39;C&#39;,&#39;F&#39;};char command[maxn];int a=2,b=1;        bool judge=true;scanf(&quot;%s&quot;,command);int len=strlen(command);for(int i=0;i&lt;len;i++){ char temp;    switch (command[i]){        case &#39;A&#39;:            if(a==0){                judge=false;                break;            }         temp=map[a-1][b];         map[a-1][b]=map[a][b];         map[a][b]=temp;         a--;          break;        case &#39;B&#39;:            if(a==4){                judge=false;                break;            }          temp=map[a+1][b];         map[a+1][b]=map[a][b];         map[a][b]=temp;         a++;         break;         case &#39;L&#39;:            if(b==0){                judge=false;                break;            }            temp=map[a][b-1];           map[a][b-1]=map[a][b];          map[a][b]=temp;          b--;          break;          case &#39;R&#39;:            if(b==4){                judge=false;                break;            }             temp=map[a][b+1];           map[a][b+1]=map[a][b];          map[a][b]=temp;          b++;          break;    }    if(judge==false){        printf(&quot;This puzzle has no final configuration.\n&quot;);        break;    }}if(judge==true){    for(int i=0;i&lt;5;i++){        for(int j=0;j&lt;5;j++){            printf(&quot;%-2c&quot;,map[i][j]);        }        printf(&quot;\n&quot;);    }}getchar();getchar();return 0;}</code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 数据结构与算法 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 数据结构与算法 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>我的小站建成啦！！！</title>
+      <link href="/2020/01/25/xiao-zhan-jian-cheng/"/>
+      <url>/2020/01/25/xiao-zhan-jian-cheng/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
