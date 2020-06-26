@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-06-17T14:21:39.144Z</updated>
+  <updated>2020-04-09T03:39:34.000Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -15,34 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>“测试”</title>
-    <link href="https://hzy-hh.github.io/2020/06/17/ce-shi/"/>
-    <id>https://hzy-hh.github.io/2020/06/17/ce-shi/</id>
-    <published>2020-06-17T14:21:39.000Z</published>
-    <updated>2020-06-17T14:21:39.144Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>ceshi</title>
-    <link href="https://hzy-hh.github.io/2020/05/18/ceshi/"/>
-    <id>https://hzy-hh.github.io/2020/05/18/ceshi/</id>
-    <published>2020-05-18T02:00:47.000Z</published>
-    <updated>2020-05-18T02:00:47.772Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>二叉树序列知二求一</title>
@@ -66,33 +38,6 @@
     
       <category term="数据结构与算法" scheme="https://hzy-hh.github.io/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/"/>
     
-    
-  </entry>
-  
-  <entry>
-    <title>统计学习方法第二、三、四章小结</title>
-    <link href="https://hzy-hh.github.io/2020/04/04/tong-ji-xue-xi-fang-fa-di-er-san-si-zhang-xiao-jie/"/>
-    <id>https://hzy-hh.github.io/2020/04/04/tong-ji-xue-xi-fang-fa-di-er-san-si-zhang-xiao-jie/</id>
-    <published>2020-04-04T09:44:15.000Z</published>
-    <updated>2020-04-04T09:52:29.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;strong&gt;了解了感知机、k近邻算法、朴素贝叶斯法&lt;/strong&gt;&lt;/p&gt;
-&lt;h4 id=&quot;感知机&quot;&gt;&lt;a href=&quot;#感知机&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="统计学习" scheme="https://hzy-hh.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="统计学习" scheme="https://hzy-hh.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
     
   </entry>
   
