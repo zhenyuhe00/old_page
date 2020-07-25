@@ -2,6 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hzy-hh.github.io/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/</loc>
+    
+    <lastmod>2020-07-25T03:17:55.460Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://hzy-hh.github.io/2020/07/25/nlp/</loc>
+    
+    <lastmod>2020-07-25T02:42:51.680Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hzy-hh.github.io/about/index.html</loc>
     
     <lastmod>2020-06-18T04:15:02.103Z</lastmod>
@@ -72,13 +86,6 @@
   </url>
   
   <url>
-    <loc>https://hzy-hh.github.io/2020/03/17/pla-suan-fa/</loc>
-    
-    <lastmod>2020-03-17T01:56:36.000Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://hzy-hh.github.io/peanut/index.html</loc>
     
     <lastmod>2020-02-14T02:50:21.000Z</lastmod>
@@ -89,34 +96,6 @@
     <loc>https://hzy-hh.github.io/peanut/index.html</loc>
     
     <lastmod>2020-02-13T23:49:53.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hzy-hh.github.io/2020/01/27/python-xue-xi-di-yi-tian/</loc>
-    
-    <lastmod>2020-02-11T06:53:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hzy-hh.github.io/2020/01/30/python-xue-xi-di-si-tian/</loc>
-    
-    <lastmod>2020-02-08T13:56:02.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hzy-hh.github.io/2020/02/04/python-xue-xi-di-jiu-tian/</loc>
-    
-    <lastmod>2020-02-04T07:35:15.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hzy-hh.github.io/2020/01/26/jin-ri-fen-xiao-jie/</loc>
-    
-    <lastmod>2020-01-27T12:14:59.000Z</lastmod>
     
   </url>
   
@@ -142,14 +121,14 @@
   </url>
   
   <url>
-    <loc>https://hzy-hh.github.io/archives/index.html</loc>
+    <loc>https://hzy-hh.github.io/categories/index.html</loc>
     
     <lastmod>2020-01-25T03:57:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://hzy-hh.github.io/categories/index.html</loc>
+    <loc>https://hzy-hh.github.io/archives/index.html</loc>
     
     <lastmod>2020-01-25T03:57:49.000Z</lastmod>
     

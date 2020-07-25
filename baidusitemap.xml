@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://hzy-hh.github.io/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/</loc>
+    <lastmod>2020-07-25</lastmod>
+  </url>  <url>
+    <loc>https://hzy-hh.github.io/2020/07/25/nlp/</loc>
+    <lastmod>2020-07-25</lastmod>
+  </url>  <url>
     <loc>https://hzy-hh.github.io/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/</loc>
     <lastmod>2020-04-09</lastmod>
   </url>  <url>
@@ -27,21 +33,6 @@
   </url>  <url>
     <loc>https://hzy-hh.github.io/2020/03/30/tong-ji-xue-xi/</loc>
     <lastmod>2020-03-31</lastmod>
-  </url>  <url>
-    <loc>https://hzy-hh.github.io/2020/03/17/pla-suan-fa/</loc>
-    <lastmod>2020-03-17</lastmod>
-  </url>  <url>
-    <loc>https://hzy-hh.github.io/2020/01/27/python-xue-xi-di-yi-tian/</loc>
-    <lastmod>2020-02-11</lastmod>
-  </url>  <url>
-    <loc>https://hzy-hh.github.io/2020/01/30/python-xue-xi-di-si-tian/</loc>
-    <lastmod>2020-02-08</lastmod>
-  </url>  <url>
-    <loc>https://hzy-hh.github.io/2020/02/04/python-xue-xi-di-jiu-tian/</loc>
-    <lastmod>2020-02-04</lastmod>
-  </url>  <url>
-    <loc>https://hzy-hh.github.io/2020/01/26/jin-ri-fen-xiao-jie/</loc>
-    <lastmod>2020-01-27</lastmod>
   </url>  <url>
     <loc>https://hzy-hh.github.io/2020/01/25/xiao-zhan-jian-cheng/</loc>
     <lastmod>2020-01-26</lastmod>

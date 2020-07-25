@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-04-09T03:39:34.000Z</updated>
+  <updated>2020-07-25T03:17:55.460Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -15,6 +15,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS</title>
+    <link href="https://hzy-hh.github.io/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/"/>
+    <id>https://hzy-hh.github.io/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/</id>
+    <published>2020-07-25T02:46:06.000Z</published>
+    <updated>2020-07-25T03:17:55.460Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;SEMI-SUPERVISED-CLASSIFICATION-WITH-GRAPH-CONVOLUTIONAL-NETWORKS-GCN&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="https://hzy-hh.github.io/categories/NLP/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>NLP</title>
+    <link href="https://hzy-hh.github.io/2020/07/25/nlp/"/>
+    <id>https://hzy-hh.github.io/2020/07/25/nlp/</id>
+    <published>2020-07-25T02:29:34.000Z</published>
+    <updated>2020-07-25T02:42:51.680Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Skip-Gram:&lt;a href=&quot;http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="https://hzy-hh.github.io/categories/NLP/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>二叉树序列知二求一</title>
@@ -94,31 +142,6 @@
   </entry>
   
   <entry>
-    <title>PLA算法</title>
-    <link href="https://hzy-hh.github.io/2020/03/17/pla-suan-fa/"/>
-    <id>https://hzy-hh.github.io/2020/03/17/pla-suan-fa/</id>
-    <published>2020-03-17T01:34:08.000Z</published>
-    <updated>2020-03-17T01:56:36.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;视频从基石2-1开始&lt;/p&gt;
-&lt;p&gt;算法原理：&lt;a href=&quot;https://blog.csdn.net/u013455341/article/details/46747343&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="台大机器学习" scheme="https://hzy-hh.github.io/categories/%E5%8F%B0%E5%A4%A7%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>串的模式匹配</title>
     <link href="https://hzy-hh.github.io/2020/02/18/chuan-de-mo-shi-pi-pei/"/>
     <id>https://hzy-hh.github.io/2020/02/18/chuan-de-mo-shi-pi-pei/</id>
@@ -141,103 +164,6 @@
     
     
       <category term="串的模式匹配" scheme="https://hzy-hh.github.io/tags/%E4%B8%B2%E7%9A%84%E6%A8%A1%E5%BC%8F%E5%8C%B9%E9%85%8D/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python学习第九天</title>
-    <link href="https://hzy-hh.github.io/2020/02/04/python-xue-xi-di-jiu-tian/"/>
-    <id>https://hzy-hh.github.io/2020/02/04/python-xue-xi-di-jiu-tian/</id>
-    <published>2020-02-04T07:32:18.000Z</published>
-    <updated>2020-02-04T07:35:15.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h4 id=&quot;书上的基础语法似乎大概已经学完啦，开始学书上的项目啦-blabalblabbalabalbababalalaalbalabablablabablabablbalbablaabalablbala&quot;&gt;&lt;a
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Python学习" scheme="https://hzy-hh.github.io/tags/Python%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python学习第四天</title>
-    <link href="https://hzy-hh.github.io/2020/01/30/python-xue-xi-di-si-tian/"/>
-    <id>https://hzy-hh.github.io/2020/01/30/python-xue-xi-di-si-tian/</id>
-    <published>2020-01-30T06:48:58.000Z</published>
-    <updated>2020-02-08T13:56:02.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！&quot;&gt;&lt;a href=&quot;#学这些前面的基础语法太无聊了！！！！！！！！！！！！！！！！！&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Python学习" scheme="https://hzy-hh.github.io/tags/Python%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Python学习第一天</title>
-    <link href="https://hzy-hh.github.io/2020/01/27/python-xue-xi-di-yi-tian/"/>
-    <id>https://hzy-hh.github.io/2020/01/27/python-xue-xi-di-yi-tian/</id>
-    <published>2020-01-27T07:13:25.000Z</published>
-    <updated>2020-02-11T06:53:15.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;ul&gt;
-&lt;li&gt;今天学了一点python，变量不用定义还有点不习惯。字符串拼接直接用+号好爽。处理一个列表有好多函数啊，用起来是挺方便的，但暂时没有发现python的优势，感觉C语言处理数组也可以先把要用的功能写成函数，再直接调用函数，就看起来和python一样了啊。不过，感觉
-        
-      
-    
-    </summary>
-    
-    
-      <category term="Python学习" scheme="https://hzy-hh.github.io/tags/Python%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>今日份小结</title>
-    <link href="https://hzy-hh.github.io/2020/01/26/jin-ri-fen-xiao-jie/"/>
-    <id>https://hzy-hh.github.io/2020/01/26/jin-ri-fen-xiao-jie/</id>
-    <published>2020-01-26T13:59:37.000Z</published>
-    <updated>2020-01-27T12:14:59.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;1、纠结于这个寒假干什么，到底是入门ACM然后搞到底，还是永远都不要搞ACM学python&quot;&gt;&lt;a href=&quot;#1、纠结于这个寒假干什么，到底是入门ACM然后搞到底，还是永远都不要搞ACM学python&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-    
-      <category term="小结" scheme="https://hzy-hh.github.io/tags/%E5%B0%8F%E7%BB%93/"/>
     
   </entry>
   
