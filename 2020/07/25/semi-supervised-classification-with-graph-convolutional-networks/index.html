@@ -446,7 +446,7 @@ SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CO">
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    887
+                    944
                 </div>
                 
 
@@ -498,6 +498,7 @@ SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CO">
 <p><img src="%E5%9B%BE%E7%89%8710.png" alt></p>
 <p>​        仿射变换完成了，最后就是非线性激活然后一层一层叠下去。（不过论文附录中的实验，不加risidual，叠了两三层以后性能就急剧下降，加了risidual也仅仅是维持维持）。最终GCN形式(两层)如下：</p>
 <p><img src="%E5%9B%BE%E7%89%8711.png" alt></p>
+<p>注：在预处理中,邻接矩阵A和度矩阵D都可以提前求出来，而结点的特征向量x又是已知的，所以只有权重矩阵W是参数，通过反向传播求得。</p>
 <h4 id="三、主要贡献点"><a href="#三、主要贡献点" class="headerlink" title="三、主要贡献点"></a>三、主要贡献点</h4><p><img src="%E5%9B%BE%E7%89%8712.png" alt></p>
 <p>我的疑问：</p>
 <p>1、最开始用的eigenvalues组成的对角矩阵的函数的卷积核，论文用Chebyshev多项式来替代。像泰勒展开或者傅里叶级数，他们近似等于原函数都是在无限项的情况下，因此，直觉上来讲，这个Chebyshev多项式不也应该至少要有特征值个数那么多项，才能近似替代吧，原文中令K=1，即只用两项Chebyshev多项式来替代最开始用的eigenvalues组成的对角矩阵的函数的卷积核，这个时候还是近似的吗？或许数学上就是这样的吧，数学太难了。</p>
@@ -786,7 +787,7 @@ Transformer annotated with pytorch:ht
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">3.2k</span>
+            <span class="white-color">3.3k</span>
             
 
             <br>

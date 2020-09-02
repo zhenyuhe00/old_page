@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hzy-hh.github.io/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/</loc>
+    
+    <lastmod>2020-09-02T12:02:46.524Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hzy-hh.github.io/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/</loc>
     
     <lastmod>2020-09-02T08:35:55.300Z</lastmod>
@@ -19,13 +26,6 @@
     <loc>https://hzy-hh.github.io/2020/07/25/nlp/</loc>
     
     <lastmod>2020-08-29T08:39:49.060Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hzy-hh.github.io/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/</loc>
-    
-    <lastmod>2020-07-25T04:46:02.182Z</lastmod>
     
   </url>
   
