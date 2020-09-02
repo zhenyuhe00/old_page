@@ -4,6 +4,66 @@
   
     
     <entry>
+      <title>capsule layer和disentangled layer的处理非常像</title>
+      <link href="/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/"/>
+      <url>/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/</url>
+      
+        <content type="html"><![CDATA[<p>Disentangled Graph Convolutional Networks和Dynamic Routing Between Capsules</p><p><img src="0.png" alt></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 深度学习模型 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cv </tag>
+            
+            <tag> graph </tag>
+            
+            <tag> capsule </tag>
+            
+            <tag> disentangled </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>postcapsule networks笔记</title>
+      <link href="/2020/09/02/postcapsule-networks-bi-ji/"/>
+      <url>/2020/09/02/postcapsule-networks-bi-ji/</url>
+      
+        <content type="html"><![CDATA[<p>论文地址：<a href="https://arxiv.org/pdf/1710.09829v1.pdf" target="_blank" rel="noopener">https://arxiv.org/pdf/1710.09829v1.pdf</a></p><p>中文讲解：<a href="https://kexue.fm/archives/4819" target="_blank" rel="noopener">https://kexue.fm/archives/4819</a></p><p>英文讲解：<a href="https://www.freecodecamp.org/news/understanding-capsule-networks-ais-alluring-new-architecture-bdb228173ddc/" target="_blank" rel="noopener">https://www.freecodecamp.org/news/understanding-capsule-networks-ais-alluring-new-architecture-bdb228173ddc/</a></p><p><img src="0.png" alt></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 深度学习模型 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> cv </tag>
+            
+            <tag> capsule </tag>
+            
+            <tag> 笔记 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS</title>
       <link href="/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/"/>
       <url>/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/</url>

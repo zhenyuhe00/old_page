@@ -1,3 +1,5 @@
+https://hzy-hh.github.io/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/
+https://hzy-hh.github.io/2020/09/02/postcapsule-networks-bi-ji/
 https://hzy-hh.github.io/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/
 https://hzy-hh.github.io/2020/07/25/nlp/
 https://hzy-hh.github.io/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/

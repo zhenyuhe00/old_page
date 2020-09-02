@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-07-25T04:46:02.182Z</updated>
+  <updated>2020-09-02T08:35:55.300Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -15,6 +15,69 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>capsule layer和disentangled layer的处理非常像</title>
+    <link href="https://hzy-hh.github.io/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/"/>
+    <id>https://hzy-hh.github.io/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/</id>
+    <published>2020-09-02T08:31:25.000Z</published>
+    <updated>2020-09-02T08:35:55.300Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Disentangled Graph Convolutional Networks和Dynamic Routing Between Capsules&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;0.png&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="深度学习模型" scheme="https://hzy-hh.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+      <category term="cv" scheme="https://hzy-hh.github.io/tags/cv/"/>
+    
+      <category term="graph" scheme="https://hzy-hh.github.io/tags/graph/"/>
+    
+      <category term="capsule" scheme="https://hzy-hh.github.io/tags/capsule/"/>
+    
+      <category term="disentangled" scheme="https://hzy-hh.github.io/tags/disentangled/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>postcapsule networks笔记</title>
+    <link href="https://hzy-hh.github.io/2020/09/02/postcapsule-networks-bi-ji/"/>
+    <id>https://hzy-hh.github.io/2020/09/02/postcapsule-networks-bi-ji/</id>
+    <published>2020-09-02T08:23:17.000Z</published>
+    <updated>2020-09-02T08:33:47.337Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;论文地址：&lt;a href=&quot;https://arxiv.org/pdf/1710.09829v1.pdf&quot; target=&quot;_blank&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="深度学习模型" scheme="https://hzy-hh.github.io/categories/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E6%A8%A1%E5%9E%8B/"/>
+    
+    
+      <category term="cv" scheme="https://hzy-hh.github.io/tags/cv/"/>
+    
+      <category term="capsule" scheme="https://hzy-hh.github.io/tags/capsule/"/>
+    
+      <category term="笔记" scheme="https://hzy-hh.github.io/tags/%E7%AC%94%E8%AE%B0/"/>
+    
+  </entry>
   
   <entry>
     <title>SEMI-SUPERVISED CLASSIFICATION WITH GRAPH CONVOLUTIONAL NETWORKS</title>
