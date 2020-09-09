@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-09-02T08:35:55.300Z</updated>
+  <updated>2020-09-09T13:06:09.759Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://hzy-hh.github.io/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/"/>
     <id>https://hzy-hh.github.io/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/</id>
     <published>2020-09-02T08:31:25.000Z</published>
-    <updated>2020-09-02T08:35:55.300Z</updated>
+    <updated>2020-09-09T13:06:09.759Z</updated>
     
     <summary type="html">
     
@@ -30,6 +30,7 @@
         
         
           &lt;p&gt;Disentangled Graph Convolutional Networks和Dynamic Routing Between Capsules&lt;/p&gt;
+&lt;p&gt;均为EM算法&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;0.png&quot;
         
       
