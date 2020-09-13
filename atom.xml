@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-09-09T13:06:09.759Z</updated>
+  <updated>2020-09-13T06:58:34.152Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ACT for RNN和Universal Transformer的笔记</title>
+    <link href="https://hzy-hh.github.io/2020/09/13/act-for-rnn-he-universal-transformer-de-bi-ji/"/>
+    <id>https://hzy-hh.github.io/2020/09/13/act-for-rnn-he-universal-transformer-de-bi-ji/</id>
+    <published>2020-09-13T06:57:05.000Z</published>
+    <updated>2020-09-13T06:58:34.152Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;0.png&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="NLP" scheme="https://hzy-hh.github.io/categories/NLP/"/>
+    
+    
+      <category term="RNN" scheme="https://hzy-hh.github.io/tags/RNN/"/>
+    
+      <category term="NLP" scheme="https://hzy-hh.github.io/tags/NLP/"/>
+    
+  </entry>
   
   <entry>
     <title>capsule layer和disentangled layer的处理非常像</title>
