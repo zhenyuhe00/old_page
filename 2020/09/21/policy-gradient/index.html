@@ -457,7 +457,7 @@ var _hmt = _hmt || [];
                 
                 <div class="info-break-policy">
                     <i class="fa fa-file-word-o fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    205
+                    280
                 </div>
                 
 
@@ -485,6 +485,7 @@ var _hmt = _hmt || [];
 <p>②得出每个Tragectory的概率后，就可以求出reward的期望值</p>
 <p><img src="1.png" alt="1"></p>
 <p>③求出reward的期望值后，就可以用gradient ascent修改参数最大化reward。（而且还发现这里reward的导数和cross-entropy很像，reward的导数就相当于cross-entropy加个负号再乘以该trajectory的概率）</p>
+<p>注意：就像玩游戏我们很难把所有可能性都全部玩一遍，因此我们也很难求出所有的trajectory，所以我们采用sample部分trajectory的方式来近似所有trajectory，且需要保证sample部分trajectory的时候是按照所有trajectory的概率分布sample的</p>
 <p><img src="2.png" alt="2"></p>
 <p>④reward的参数更新步骤就是先对于每一个trajectory里的每一次由observation和action所求出的损失的导数的平均，再把所有的trajectory的导数更新加起来求平均</p>
 <p><img src="3.png" alt="3"></p>
@@ -787,7 +788,7 @@ var _hmt = _hmt || [];
 
             
             &nbsp;<i class="fa fa-area-chart"></i>&nbsp;站点总字数:&nbsp;
-            <span class="white-color">3.5k</span>
+            <span class="white-color">3.6k</span>
             
 
             <br>
