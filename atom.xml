@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-09-13T06:58:34.152Z</updated>
+  <updated>2020-09-21T05:52:13.815Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -15,6 +15,37 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>policy gradient</title>
+    <link href="https://hzy-hh.github.io/2020/09/21/policy-gradient/"/>
+    <id>https://hzy-hh.github.io/2020/09/21/policy-gradient/</id>
+    <published>2020-09-21T01:48:50.000Z</published>
+    <updated>2020-09-21T05:52:13.815Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;①计算每个Tragectory的概率&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;0.png&quot; alt=&quot;0&quot;&gt;&lt;/p&gt;
+&lt;p&gt;②得出每个Tragectory的概率后，就可以求出reward的期望值&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;1.png&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="Reinforcement learning" scheme="https://hzy-hh.github.io/categories/Reinforcement-learning/"/>
+    
+    
+      <category term="Reinforcement learning" scheme="https://hzy-hh.github.io/tags/Reinforcement-learning/"/>
+    
+      <category term="policy gradient" scheme="https://hzy-hh.github.io/tags/policy-gradient/"/>
+    
+  </entry>
   
   <entry>
     <title>ACT for RNN和Universal Transformer的笔记</title>
