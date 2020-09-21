@@ -8,7 +8,7 @@
       <link href="/2020/09/21/policy-gradient/"/>
       <url>/2020/09/21/policy-gradient/</url>
       
-        <content type="html"><![CDATA[<p>①计算每个Tragectory的概率</p><p><img src="0.png" alt="0"></p><p>②得出每个Tragectory的概率后，就可以求出reward的期望值</p><p><img src="1.png" alt="1"></p><p>③求出reward的期望值后，就可以用gradient ascent修改参数最大化reward。（而且还发现这里reward的导数和cross-entropy很像，reward的导数就相当于cross-entropy加个负号再乘以该trajectory的概率）</p><p>注意：就像玩游戏我们很难把所有可能性都全部玩一遍，因此我们也很难求出所有的trajectory，所以我们采用sample部分trajectory的方式来近似所有trajectory，且需要保证sample部分trajectory的时候是按照所有trajectory的概率分布sample的</p><p><img src="2.png" alt="2"></p><p>④reward的参数更新步骤就是先对于每一个trajectory里的每一次由observation和action所求出的损失的导数的平均，再把所有的trajectory的导数更新加起来求平均</p><p><img src="3.png" alt="3"></p><p>⑤应用举例：类比CNN分类图像，将图像作为state传给classifier输出分类结果，分类结果作为action，然后更新</p><p><img src="4.png" alt="4"></p><p>小tip:比如说玩一些游戏永远都是得正分，不会的负分，因此我们可以给reward设置一个baseline</p><p><img src="5.png" alt="5"></p>]]></content>
+        <content type="html"><![CDATA[<p>以下截图来自<a href="https://www.youtube.com/watch?v=z95ZYgPgXOY&amp;list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_&amp;index=1" target="_blank" rel="noopener">https://www.youtube.com/watch?v=z95ZYgPgXOY&amp;list=PLJV_el3uVTsODxQFgzMzPLa16h6B8kWM_&amp;index=1</a></p><p>①计算每个Tragectory的概率</p><p><img src="0.png" alt="0"></p><p>②得出每个Tragectory的概率后，就可以求出reward的期望值</p><p><img src="1.png" alt="1"></p><p>③求出reward的期望值后，就可以用gradient ascent修改参数最大化reward。（而且还发现这里reward的导数和cross-entropy很像，reward的导数就相当于cross-entropy加个负号再乘以该trajectory的概率）</p><p>注意：就像玩游戏我们很难把所有可能性都全部玩一遍，因此我们也很难求出所有的trajectory，所以我们采用sample部分trajectory的方式来近似所有trajectory，且需要保证sample部分trajectory的时候是按照所有trajectory的概率分布sample的</p><p><img src="2.png" alt="2"></p><p>④reward的参数更新步骤就是先对于每一个trajectory里的每一次由observation和action所求出的损失的导数的平均，再把所有的trajectory的导数更新加起来求平均</p><p><img src="3.png" alt="3"></p><p>⑤应用举例：类比CNN分类图像，将图像作为state传给classifier输出分类结果，分类结果作为action，然后更新</p><p><img src="4.png" alt="4"></p><p>小tip:比如说玩一些游戏永远都是得正分，不会的负分，因此我们可以给reward设置一个baseline</p><p><img src="5.png" alt="5"></p>]]></content>
       
       
       <categories>
@@ -76,9 +76,9 @@
             
             <tag> cv </tag>
             
-            <tag> graph </tag>
-            
             <tag> capsule </tag>
+            
+            <tag> graph </tag>
             
             <tag> disentangled </tag>
             
