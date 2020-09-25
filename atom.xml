@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-09-25T00:57:55.801Z</updated>
+  <updated>2020-09-25T01:27:25.556Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://hzy-hh.github.io/2020/09/25/the-complete-meta-learning-optimization/"/>
     <id>https://hzy-hh.github.io/2020/09/25/the-complete-meta-learning-optimization/</id>
     <published>2020-09-25T00:55:56.000Z</published>
-    <updated>2020-09-25T00:57:55.801Z</updated>
+    <updated>2020-09-25T01:27:25.556Z</updated>
     
     <summary type="html">
     
@@ -29,13 +29,14 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;0.png&quot;
+          &lt;p&gt;&lt;img src=&quot;0.png&quot; alt&gt;&lt;/p&gt;
+&lt;p&gt;（截图来自：&lt;a
         
       
     
     </summary>
     
-      <category term="meata learning" scheme="https://hzy-hh.github.io/categories/meata-learning/"/>
+      <category term="meta learning" scheme="https://hzy-hh.github.io/categories/meta-learning/"/>
     
     
       <category term="meta learning" scheme="https://hzy-hh.github.io/tags/meta-learning/"/>
