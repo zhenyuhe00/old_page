@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-09-26T08:27:02.455Z</updated>
+  <updated>2020-09-27T02:52:03.699Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Capsule graph neural network</title>
+    <link href="https://hzy-hh.github.io/2020/09/27/capsule-graph-neural-network/"/>
+    <id>https://hzy-hh.github.io/2020/09/27/capsule-graph-neural-network/</id>
+    <published>2020-09-27T02:47:57.000Z</published>
+    <updated>2020-09-27T02:52:03.699Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;&lt;img src=&quot;./Capsule-graph-neural-network/0.jpg&quot;
+        
+      
+    
+    </summary>
+    
+      <category term="GNN" scheme="https://hzy-hh.github.io/categories/GNN/"/>
+    
+    
+      <category term="GNN" scheme="https://hzy-hh.github.io/tags/GNN/"/>
+    
+  </entry>
   
   <entry>
     <title>MAML</title>

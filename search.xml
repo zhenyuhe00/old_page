@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>Capsule graph neural network</title>
+      <link href="/2020/09/27/capsule-graph-neural-network/"/>
+      <url>/2020/09/27/capsule-graph-neural-network/</url>
+      
+        <content type="html"><![CDATA[<p><img src="./Capsule-graph-neural-network/0.jpg" alt></p>]]></content>
+      
+      
+      <categories>
+          
+          <category> GNN </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> GNN </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>MAML</title>
       <link href="/2020/09/26/maml/"/>
       <url>/2020/09/26/maml/</url>
