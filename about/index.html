@@ -118,6 +118,13 @@ var _hmt = _hmt || [];
     </li>
     
     <li class="hide-on-med-and-down">
+        <a href="/friends" class="waves-effect waves-light">
+            
+            <span>友情链接</span>
+        </a>
+    </li>
+    
+    <li class="hide-on-med-and-down">
         <a href="/contact" class="waves-effect waves-light">
             
             <span>留言板</span>
@@ -191,6 +198,15 @@ var _hmt = _hmt || [];
                 <i class="fa fa-fw fa-link"></i>
                 
                 关于
+            </a>
+        </li>
+        
+        <li>
+            <a href="/friends" class="waves-effect waves-light">
+                
+                <i class="fa fa-fw fa-link"></i>
+                
+                友情链接
             </a>
         </li>
         
@@ -541,7 +557,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"NLP","value":3},{"name":"GNN","value":1},{"name":"meta learning","value":2},{"name":"数据结构与算法","value":7},{"name":"Reinforcement learning","value":1},{"name":"深度学习模型","value":2},{"name":"统计学习","value":2}],
+                data: [{"name":"GNN","value":1},{"name":"NLP","value":3},{"name":"meta learning","value":2},{"name":"数据结构与算法","value":7},{"name":"深度学习模型","value":2},{"name":"Reinforcement learning","value":1},{"name":"统计学习","value":2}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -565,7 +581,7 @@ $('.bg-cover').css('background-image', 'url(/medias/banner/' + new Date().getDay
         xAxis: [
             {
                 type: 'category',
-                data: ["数据结构与算法","meta learning","cv","capsule","统计学习","RNN","NLP","GNN","Reinforcement learning","policy gradient"]
+                data: ["数据结构与算法","meta learning","cv","capsule","统计学习","GNN","RNN","NLP","graph","disentangled"]
             }
         ],
         yAxis: [
