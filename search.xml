@@ -212,25 +212,6 @@
     
     
     <entry>
-      <title>NLP</title>
-      <link href="/2020/07/25/nlp/"/>
-      <url>/2020/07/25/nlp/</url>
-      
-        <content type="html"><![CDATA[<p>Skip-Gram:<a href="http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/" target="_blank" rel="noopener">http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/</a></p><p>Transformer annotated with pytorch:<a href="http://nlp.seas.harvard.edu/2018/04/03/attention.html" target="_blank" rel="noopener">http://nlp.seas.harvard.edu/2018/04/03/attention.html</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> NLP </category>
-          
-      </categories>
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>二叉树序列知二求一</title>
       <link href="/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/"/>
       <url>/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/</url>
@@ -255,31 +236,6 @@
       <url>/2020/03/31/tong-ji-xue-xi-fang-fa-di-yi-zhang-xiao-jie/</url>
       
         <content type="html"><![CDATA[<h4 id="统计学习方法"><a href="#统计学习方法" class="headerlink" title="统计学习方法"></a>统计学习方法</h4><p><strong>统计学习方法概括</strong>：现在有某个输入输出的对应关系f无法轻易得知，于是给一堆训练数据给机器学习，让机器找到一个最优模型g（最契合f），使得不管是训练数据的输入还是未知数据的输入，通过g得到的输出结果与通过f得到的差别结果最小。</p><h4 id="统计学习分类"><a href="#统计学习分类" class="headerlink" title="统计学习分类"></a>统计学习分类</h4><p>1、 <strong>监督学习</strong>：从标注（如标注某些单词是名词，某些单词是动词）数据中学习预测模型的机器学习问题。  （标注耗费人工，但感觉准确率比无监督学习高？）<br>2、 <strong>无监督学习</strong>：数据没有标注，机器自己找规律。<br>半监督学习（两者间），主动学习（机器自己提问）<br>概率模型、非概率模型（取值0/1）、线性模型、非线性模型、参数化模型、非参数化模型（暂时不理解）<br>贝叶斯学习（后验概率=先验概率 * 调整比例）<br>核方法（将非线性模型的纬度提升使其线性可分，数学原理暂不理解）</p><h4 id="统计学习方法三要素"><a href="#统计学习方法三要素" class="headerlink" title="统计学习方法三要素"></a>统计学习方法三要素</h4><p>1、<strong>模型</strong>：在监督学习中，模型就是要学习的条件概率分布或决策函数，模型的假设空间为可能的条件概率或决策函数的集合。<br>2、<strong>策略</strong>：如何选取最优化的模型？损失函数最小（既预测值与真实值差距最小，可用0-1损失函数、平方损失函数、绝对损失函数、对数损失函数衡量）。学习的目标就是选择期望风险最小的模型（期望风险：每一对输入对应的输出与实际值的差值乘联合分布的积分）。由于期望风险不是上帝视角无法计算，于是只能通过局部推整体，从而出来了经验风险（训练数据集在某选取模型下的平均损失），当经验风险小是我们认为期望风险也应该小。然而，除非训练数据超级大，如果经验风险过小有可能导致过拟合，此时我们在经验风险的表达式后面添加一个正则化项变成结构风险，此时我们认为结构风险越小，期望风险越小。结构风险不同于经验风险，经验风险可以不断地增加选取模型的复杂度以更好地契合训练数据，而结构风险中，当模型的复杂度不断增加是，正则化的值也不断增加。因此，结构风险的意义就是：选取尽可能简单的模型尽可能提高准确率。<br>3、<strong>算法</strong>：算法指学习模型的具体计算方法，一般指求解最优化问题的方法。</p><h4 id="模型评估与模型选择"><a href="#模型评估与模型选择" class="headerlink" title="模型评估与模型选择"></a>模型评估与模型选择</h4><p>1、<strong>泛化能力</strong>：学习方法对未知数据的预测能力。<br>2、<strong>过拟合与模型选择</strong>：…<br>3、<strong>正则化与交叉验证</strong>：正则化…交叉验证：用的最多的是S折交叉验证：把数据分为S个互不相交、大小相同的自己，把S-1个子集的数据作为训练数据，剩下的作为测试数据，重复S次，选取平均误差最小的模型。<br>4、<strong>泛化误差上界</strong>：总的来说，样本容量越多，假设空间越小，泛化误差上界越小。<strong>针对二类泛化误差的数学原理有待理解</strong>。  </p><p>####第一章习题答案<br><a href="https://blog.csdn.net/breeze_blows/article/details/85544308" target="_blank" rel="noopener">https://blog.csdn.net/breeze_blows/article/details/85544308</a></p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 统计学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 统计学习 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>《统计学习方法》各章节代码实现与课后习题参考解答</title>
-      <link href="/2020/03/30/tong-ji-xue-xi/"/>
-      <url>/2020/03/30/tong-ji-xue-xi/</url>
-      
-        <content type="html"><![CDATA[<p><a href="https://blog.csdn.net/breeze_blows/article/details/85469944" target="_blank" rel="noopener">https://blog.csdn.net/breeze_blows/article/details/85469944</a></p><p><a href="https://github.com/WenDesi/lihang_book_algorithm" target="_blank" rel="noopener">https://github.com/WenDesi/lihang_book_algorithm</a></p>]]></content>
       
       
       <categories>

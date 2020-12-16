@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://hzy-hh.github.io/about/index.html</loc>
+    
+    <lastmod>2020-12-16T01:27:51.828Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://hzy-hh.github.io/friends/index.html</loc>
     
     <lastmod>2020-11-14T07:57:20.632Z</lastmod>
@@ -65,20 +72,6 @@
   </url>
   
   <url>
-    <loc>https://hzy-hh.github.io/2020/07/25/nlp/</loc>
-    
-    <lastmod>2020-08-29T08:39:49.060Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hzy-hh.github.io/about/index.html</loc>
-    
-    <lastmod>2020-06-18T04:15:02.103Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://hzy-hh.github.io/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/</loc>
     
     <lastmod>2020-04-09T03:39:34.000Z</lastmod>
@@ -131,13 +124,6 @@
     <loc>https://hzy-hh.github.io/2020/02/18/chuan-de-mo-shi-pi-pei/</loc>
     
     <lastmod>2020-03-31T02:27:29.000Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://hzy-hh.github.io/2020/03/30/tong-ji-xue-xi/</loc>
-    
-    <lastmod>2020-03-31T02:04:17.000Z</lastmod>
     
   </url>
   

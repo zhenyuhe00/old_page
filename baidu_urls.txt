@@ -6,10 +6,8 @@ https://hzy-hh.github.io/2020/09/13/act-for-rnn-he-universal-transformer-de-bi-j
 https://hzy-hh.github.io/2020/09/02/capsule-layer-he-disentangled-layer-de-chu-li-fei-chang-xiang/
 https://hzy-hh.github.io/2020/09/02/postcapsule-networks-bi-ji/
 https://hzy-hh.github.io/2020/07/25/semi-supervised-classification-with-graph-convolutional-networks/
-https://hzy-hh.github.io/2020/07/25/nlp/
 https://hzy-hh.github.io/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/
 https://hzy-hh.github.io/2020/03/31/tong-ji-xue-xi-fang-fa-di-yi-zhang-xiao-jie/
-https://hzy-hh.github.io/2020/03/30/tong-ji-xue-xi/
 https://hzy-hh.github.io/2020/02/18/chuan-de-mo-shi-pi-pei/
 https://hzy-hh.github.io/2020/01/26/uva232/
 https://hzy-hh.github.io/2020/01/26/uva202/

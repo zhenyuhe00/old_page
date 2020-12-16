@@ -232,30 +232,6 @@
   </entry>
   
   <entry>
-    <title>NLP</title>
-    <link href="https://hzy-hh.github.io/2020/07/25/nlp/"/>
-    <id>https://hzy-hh.github.io/2020/07/25/nlp/</id>
-    <published>2020-07-25T02:29:34.000Z</published>
-    <updated>2020-08-29T08:39:49.060Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;Skip-Gram:&lt;a href=&quot;http://mccormickml.com/2016/04/19/word2vec-tutorial-the-skip-gram-model/&quot; target=&quot;_blank&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="NLP" scheme="https://hzy-hh.github.io/categories/NLP/"/>
-    
-    
-  </entry>
-  
-  <entry>
     <title>二叉树序列知二求一</title>
     <link href="https://hzy-hh.github.io/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/"/>
     <id>https://hzy-hh.github.io/2020/04/09/er-cha-shu-xu-lie-zhi-er-qiu-yi/</id>
@@ -294,32 +270,6 @@
         
         
           &lt;h4 id=&quot;统计学习方法&quot;&gt;&lt;a href=&quot;#统计学习方法&quot; class=&quot;headerlink&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="统计学习" scheme="https://hzy-hh.github.io/categories/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
-    
-    
-      <category term="统计学习" scheme="https://hzy-hh.github.io/tags/%E7%BB%9F%E8%AE%A1%E5%AD%A6%E4%B9%A0/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>《统计学习方法》各章节代码实现与课后习题参考解答</title>
-    <link href="https://hzy-hh.github.io/2020/03/30/tong-ji-xue-xi/"/>
-    <id>https://hzy-hh.github.io/2020/03/30/tong-ji-xue-xi/</id>
-    <published>2020-03-30T11:27:01.000Z</published>
-    <updated>2020-03-31T02:04:17.000Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;p&gt;&lt;a href=&quot;https://blog.csdn.net/breeze_blows/article/details/85469944&quot; target=&quot;_blank&quot;
         
       
     
