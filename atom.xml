@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://hzy-hh.github.io/"/>
-  <updated>2020-09-27T02:54:55.993Z</updated>
+  <updated>2020-12-17T12:19:16.226Z</updated>
   <id>https://hzy-hh.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>哇</title>
+    <link href="https://hzy-hh.github.io/2020/12/17/wa/"/>
+    <id>https://hzy-hh.github.io/2020/12/17/wa/</id>
+    <published>2020-12-17T12:17:24.000Z</published>
+    <updated>2020-12-17T12:19:16.226Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;今天为了跑一个大型数据集，去租了一台3090，哇这速度也太快了吧，目测是1080ti好几倍啊，啊啊啊啊啊啊啊啊啊&lt;/p&gt;
+
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>Capsule graph neural network</title>
