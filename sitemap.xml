@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://hzy-hzy.github.io/highlights/index.html</loc>
-    
-    <lastmod>2021-04-17T15:00:24.402Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://hzy-hzy.github.io/about/index.html</loc>
     
     <lastmod>2021-04-16T02:01:32.377Z</lastmod>
@@ -156,14 +149,14 @@
   </url>
   
   <url>
-    <loc>https://hzy-hzy.github.io/categories/index.html</loc>
+    <loc>https://hzy-hzy.github.io/archives/index.html</loc>
     
     <lastmod>2020-01-25T03:57:49.000Z</lastmod>
     
   </url>
   
   <url>
-    <loc>https://hzy-hzy.github.io/archives/index.html</loc>
+    <loc>https://hzy-hzy.github.io/categories/index.html</loc>
     
     <lastmod>2020-01-25T03:57:49.000Z</lastmod>
     
